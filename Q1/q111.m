@@ -1,3 +1,6 @@
+clear all;
+close all;
+
 load('data');
 dwis=double(dwis);
 dwis=permute(dwis,[4,1,2,3]);
